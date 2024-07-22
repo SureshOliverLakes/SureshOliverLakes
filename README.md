@@ -20,7 +20,7 @@ The Steps taken for the EDA and to develop the ML pipeline are as follows:
 5. Model Accuracy
 6. Summary
 
-Fruther details of each of the EDA steps taken are described in the "eda.ipynb"  file
+Followinn the study of the data types and data, the data are cleaned. This is the foremost the most important part of EDA before features selection which is equally important for ML projects.
 
 We have used all of the following features to predict the outcome for **Daily Solar Panel Efficiency**
 
@@ -45,3 +45,5 @@ It would have been ideal to build other ML models such as Decision Trees and Ran
 ideal to create a function to call these models based on user need.
 
 The in deployment of the logistics regression model, we have used the metrices such as **accuracy_score, confusion matrix, and classification report**. With reference to the accuracy score we take comfort in the fact that the train and test scores are very close indicating that the training dataset is accurate. If more time is available, it would have been ideal to join the Air Quality dataset as well to see if these also impact **Daily Solar Panel Efficiency**
+
+Fruther details of each of the EDA steps taken are described in the "eda.ipynb"  file
