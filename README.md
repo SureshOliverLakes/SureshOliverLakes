@@ -24,18 +24,24 @@ Fruther details of each of the EDA steps taken are described in the "eda.ipynb" 
 
 We have used all of the following features to predict the outcome for **Daily Solar Panel Efficiency**
 
-     _Daily Rainfall Total (mm)_
-     _Highest 30 Min Rainfall (mm)_
-     Highest 60 Min Rainfall (mm)
-     Highest 120 Min Rainfall (mm)
-     Min Temperature (deg C)
-     Maximum Temperature (deg C)
-     Min Wind Speed (km/h)
-     Max Wind Speed (km/h)
-     Sunshine Duration (hrs)
-     Cloud Cover (%)
-     Wet Bulb Temperature (deg F)
-     Relative Humidity (%)
-     Air Pressure (hPa)
-     Dew Point Category
-     Wind Direction
+_Daily Rainfall Total (mm)_
+_Highest 30 Min Rainfall (mm)_
+_Highest 60 Min Rainfall (mm)_
+_Highest 120 Min Rainfall (mm)_
+_Min Temperature (deg C)_
+_Maximum Temperature (deg C)_
+_Min Wind Speed (km/h)_
+_Max Wind Speed (km/h)_
+_Sunshine Duration (hrs)_
+_Cloud Cover (%)_
+_Wet Bulb Temperature (deg F)_
+_Relative Humidity (%)_
+_Air Pressure (hPa)_
+_Dew Point Category_
+_Wind Direction_
+
+The model used is based on **scikit-learn** which is the most common package. In particular due to time constraints we have used the logstics regression model
+It would have been ideal to build other ML models such as Decision Trees and Random Forest so that users are able to compare the models. Also it would have been
+ideal to create a function to call these models based on user need.
+
+The in deployment of the logistics regression model, we have used the metrices such as **accuracy_score, confusion matrix, and classification report**. With reference to the accuracy score we take comfort in the fact that the train and test scores are very close indicating that the training dataset is accurate. If more time is available, it would have been ideal to join the Air Quality dataset as well to see if these also impact **Daily Solar Panel Efficiency**
