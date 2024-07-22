@@ -24,8 +24,8 @@ Fruther details of each of the EDA steps taken are described in the "eda.ipynb" 
 
 We have used all of the following features to predict the outcome for **Daily Solar Panel Efficiency**
 
-     _Daily Rainfall Total (mm)
-     Highest 30 Min Rainfall (mm)
+     _Daily Rainfall Total (mm)_
+     _Highest 30 Min Rainfall (mm)_
      Highest 60 Min Rainfall (mm)
      Highest 120 Min Rainfall (mm)
      Min Temperature (deg C)
@@ -38,4 +38,4 @@ We have used all of the following features to predict the outcome for **Daily So
      Relative Humidity (%)
      Air Pressure (hPa)
      Dew Point Category
-     Wind Direction_
+     Wind Direction
