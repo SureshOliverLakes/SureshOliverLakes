@@ -20,7 +20,7 @@ The Steps taken for the EDA and to develop the ML pipeline are as follows:
 5. Model Accuracy
 6. Summary
 
-Followinn the study of the data types and data, the data are cleaned. This is the foremost the most important part of EDA before features selection which is equally important for ML projects.
+Following the study of the data types and data, the data are cleaned. This is the foremost the most important part of EDA before features selection which is equally important for ML projects.
 
 We have used all of the following features to predict the outcome for **Daily Solar Panel Efficiency**
 
