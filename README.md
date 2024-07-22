@@ -10,13 +10,32 @@
      5. requirements.txt
      6. run.sh
       
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+The Steps taken for the EDA and to develop the ML pipeline are as follows:
 
-<!---
-SureshOliverLakes/SureshOliverLakes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Content
+1. Import and Understand Data
+2. Clean Data
+3. Feature Selection
+4. Train and Test Data
+5. Model Accuracy
+6. Summary
+
+Fruther details of each of the EDA steps taken are described in the "eda.ipynb"  file
+
+We have used all of the following features to predict the outcome for **Daily Solar Panel Efficiency**
+
+     *Daily Rainfall Total (mm)*
+     *Highest 30 Min Rainfall (mm)*
+     *Highest 60 Min Rainfall (mm)*
+     Highest 120 Min Rainfall (mm)
+     Min Temperature (deg C)
+     Maximum Temperature (deg C)
+     Min Wind Speed (km/h)
+     Max Wind Speed (km/h)
+     Sunshine Duration (hrs)
+     Cloud Cover (%)
+     Wet Bulb Temperature (deg F)
+     Relative Humidity (%)
+     Air Pressure (hPa)
+     Dew Point Category
+     Wind Direction
